@@ -1,17 +1,24 @@
 {
   "name": "Pips Hunter Official",
-  "short_name": "PipsHunter",
-  "description": "Quality signals with deep analysis",
-  "start_url": "index.html",
+  "short_name": "Pips Hunter",
+  "description": "Daily Forex Signals & Live Market Charts.",
+  "start_url": ".",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
     {
       "src": "logo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "categories": ["finance", "trading"]
 }
