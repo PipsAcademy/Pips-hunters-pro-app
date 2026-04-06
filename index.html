@@ -6,14 +6,15 @@
     <title>Pips Hunter Official</title>
     <link rel="manifest" href="manifest.json">
     <script>
-        // Yeh code automatic aapki site par bhej dega bina error ke
-        window.location.href = "https://sites.google.com/view/pipshunter/home";
+        // Yeh code direct browser ko site par bhej dega bina frame ke
+        window.location.replace("https://sites.google.com/view/pipshunter/home");
     </script>
 </head>
 <body>
-    <p style="text-align:center; margin-top:50px; font-family:sans-serif;">
-        Redirecting to Pips Hunter Official...
-    </p>
+    <div style="text-align:center; margin-top:50px; font-family: sans-serif;">
+        <h2>Opening Pips Hunter...</h2>
+        <p>If not redirected, <a href="https://sites.google.com/view/pipshunter/home">click here</a>.</p>
+    </div>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js');
